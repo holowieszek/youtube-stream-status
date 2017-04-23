@@ -119,7 +119,7 @@ class YoutubeStreamStatus extends Controller
             $jsonOutput = json_encode($output);
             //return $jsonOutput['title'];
 
-            return $jsonOutput;
+            return $output;
 
         } else {
             return response(['status' => 'offline']);
