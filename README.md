@@ -46,3 +46,16 @@ You could also use objects
 and JSON
 
 `$jsonOutput['title']`
+
+# Example output
+```
+array:7 [▼
+  "title" => "NASA LIVE: 👽🌎 "EARTH FROM SPACE" ♥ #SpaceTalk (2017) LIVE FEED HDVR | Subscribe now!"
+  "description" => "Earth from Space ♥ (2017) NASA Livestream SpaceTalk - 24/7 Rotate ISS HD Camera is presented. Livestream Earth seen from space powered by NASA ..."
+  "channelTitle" => "SPACE & UNIVERSE (Official)"
+  "videoId" => "RtU_mdL2vBM"
+  "liveBroadcastContent" => "live"
+  "streamUrl" => "https://www.youtube.com/watch?v=RtU_mdL2vBM"
+  "streamEmbedUrl" => "https://www.youtube.com/embed/RtU_mdL2vBM"
+]
+```
