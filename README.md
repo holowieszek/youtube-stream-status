@@ -32,14 +32,14 @@ returns live/offline
 
 `$output['streamUrl']`
 
-returns stream link e.g. https://www.youtube.com/watch?v=`$output['videoId']`
+returns stream link e.g. `https://youtube.com/watch?v=$output['videoId']`
 
 `$output['streamEmbedUrl']`
 
-returns embed link to stream e.g. https://www.youtube.com/embed/`$output['videoId']`
+returns embed link to stream e.g. `https://www.youtube.com/embed/$output['videoId']`
 
 # Object/JSON
-You could also use objects e.g.
+You could also use objects
 
 `$objectOutput->title`
 
