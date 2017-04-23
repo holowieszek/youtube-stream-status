@@ -68,7 +68,6 @@ class YoutubeStreamStatus extends Controller
             return $this->getStreamStatus($this->channel_id);
             
         } else {
-            $this->status = "This channel doesn't exists!";
             return response(['status' => $this->status]);
         }
 
